@@ -1,0 +1,12 @@
+@keyframes animacao{
+    from {background-color: red;};
+    to {background-color: green;};
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-delay: 2s;
+}

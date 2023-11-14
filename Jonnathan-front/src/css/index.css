@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@keyframes cordefundo{
+    0%{background-position: 0 85%;
+    }
+    50%{background-position: 100% 20%;
+    }
+    100%{
+        background-position: 0 85%;
+    }
+}
+
+body{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(450deg, #5908a2, #201B2C, #5908a2);
+    background-size: 600% 600%;
+    animation: cordefundo 100s infinite linear;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #77FFC0;
+}
+
+header{
+    background-color: #201B2C;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+nav{
+    font-size: 25px;
+}
+button{
+    height: 20px;
+    width: 20px;
+}
+nav, h1, button{
+    
+}
