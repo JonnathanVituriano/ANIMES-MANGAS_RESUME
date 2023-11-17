@@ -11,11 +11,9 @@
     justify-content: space-between;
 }
 
-.topo h3 {
-    font-size: 25px;
+.topo h1 {
     color: #77ffc0;
     margin-left: 40px;
-    font-family: sans-serif;
 }
 
 .menu {
@@ -164,8 +162,26 @@
     box-shadow: 0px 10px 40px -12px #00ff8052;
 }
 
-/* ... Seu CSS existente ... */
-
-.search-form.active {
+.search-form {
     display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+.search-form button {
+    border: none;
+    background: none;
+    cursor: pointer;
 }
