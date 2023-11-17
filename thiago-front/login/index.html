@@ -9,6 +9,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style>
+        /* Seu estilo CSS existente... */
+
+        .search-form {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-form input {
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+            background: #514869;
+            color: #f0ffffde;
+            font-size: 12pt;
+            box-shadow: 0px 10px 40px #00000056;
+            outline: none;
+            box-sizing: border-box;
+            margin-right: 5px;
+        }
+
+        .search-form button {
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class="topo">
@@ -17,13 +44,16 @@
             <a href="#" alt="inicio">INICIO</a>
             <a href="#" alt="animes">ANIMES</a>
             <a href="#" alt="novidades">NOVIDADES</a>
-            <a href="#" alt="resumos">RESUMOS</a>
             <a href="#" alt="favoritos">FAVORITOS</a>
         </div>
         <div class="icons">
-            <a href="#">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </a>
+            <form class="search-form" action="#" method="get">
+                <input type="text" name="search" placeholder="Pesquisar">
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            
             <a href="#">
                 <i class="fa-solid fa-bell"></i>
             </a>

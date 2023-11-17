@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-onepiece {
+    width: 200px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.luffy {
+    background-image: url('src/assets/imagem-com-sombra/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.zoro {
+    background-image: url('src/assets/imagem-com-sombra/2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.jinbe {
+    background-image: url('src/assets/imagem-com-sombra/3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.sanji {
+    background-image: url('src/assets/imagem-com-sombra/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.ace {
+    background-image: url('src/assets/imagem-com-sombra/5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.nami {
+    background-image: url('src/assets/imagem-com-sombra/6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.usopp {
+    background-image: url('src/assets/imagem-com-sombra/7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.brook {
+    background-image: url('src/assets/imagem-com-sombra/8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.franky {
+    background-image: url('src/assets/imagem-com-sombra/9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.chopper {
+    background-image: url('src/assets/imagem-com-sombra/10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
