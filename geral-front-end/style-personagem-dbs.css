@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-dbs {
+    width: 200px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.goku {
+    background-image: url('assets/imagem-com-sombra/goku-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.vegeta {
+    background-image: url('assets/imagem-com-sombra/vegeta-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.gohan {
+    background-image: url('assets/imagem-com-sombra/gohan-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.piccolo {
+    background-image: url('assets/imagem-com-sombra/piccolo-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.trunks {
+    background-image: url('assets/imagem-com-sombra/trunks-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.freeza {
+    background-image: url('assets/imagem-com-sombra/freeza-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.broly {
+    background-image: url('assets/imagem-com-sombra/broly-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.bulma {
+    background-image: url('assets/imagem-com-sombra/bulma-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.mestre-kame {
+    background-image: url('assets/imagem-com-sombra/mestre-kame-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.kuririn {
+    background-image: url('assets/imagem-com-sombra/kuririn-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
