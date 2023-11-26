@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
 }
 
 .topo {
@@ -60,33 +61,49 @@ body {
     color: #77ffc0;
 }
 
-.imagem .img1 {
-    height: 400px;
-    object-fit: cover;
-    margin: 20px;
+.img2{
+    height: 500px;
+    width: 350px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    opacity: 70%;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
 }
 
-.fa-solid,
-.fa-regular {
-    padding-top: 20px;
-}   
-
-.carousel-container {
-    overflow: hidden;
-    white-space: nowrap;
+.img2:hover{
+    opacity: 100%;
 }
 
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+p{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
-.carousel img {
-    height: 400px;
-    object-fit: cover;
-    margin: 20px;
+.fa-plus{
+    border-radius: 360px;
+    border-width: 4px;
+    border-color:#77ffc0;
+    border-style: solid;
 }
 
-.containeranimes{
-    height: 300px;
+.redes-sociais {
+    color: #77ffc0;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.redes-sociais i {
+    margin-right: 25px;
+}
+
+.redes-sociais a {
+    color: #77FFC0;
 }
