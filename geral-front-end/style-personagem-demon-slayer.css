@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-anime {
+    width: 200px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.tanjiro {
+    background-image: url('assets/imagem-com-sombra/tanjiro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.inosuke {
+    background-image: url('assets/imagem-com-sombra/inosuke.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.zenitsu {
+    background-image: url('assets/imagem-com-sombra/zenitsu.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.kanao {
+    background-image: url('assets/imagem-com-sombra/kanao.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.kochou {
+    background-image: url('assets/imagem-com-sombra/kochue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.muzan {
+    background-image: url('assets/imagem-com-sombra/muzan.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.nezuko {
+    background-image: url('assets/imagem-com-sombra/nezuko.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.rengoku {
+    background-image: url('assets/imagem-com-sombra/rengoku.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.tomioka {
+    background-image: url('assets/imagem-com-sombra/tomioka.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.urokodaki {
+    background-image: url('assets/imagem-com-sombra/urokodaki.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .topo {
@@ -11,11 +11,9 @@
     justify-content: space-between;
 }
 
-.topo h3 {
-    font-size: 25px;
-    color:#77ffc0;
+.topo h1 {
+    color: #77ffc0;
     margin-left: 40px;
-    font-family: sans-serif;
 }
 
 .menu {
@@ -42,6 +40,30 @@
     color: #77ffc0;
 }
 
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+.search-form button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
 .login-principal {
     height: 100vh;
     background-color: #201b2c;
@@ -60,7 +82,7 @@
 }
 
 .login-esquerdo h1 {
-    color:#77ffc0;
+    color: #77ffc0;
 }
 
 .img-login {
@@ -94,7 +116,7 @@
 }
 
 .textfield {
-    width: 100% ;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -102,7 +124,7 @@
     margin: 10px 0;
 }
 
-.textfield input{
+.textfield input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -115,13 +137,13 @@
     box-sizing: border-box;
 }
 
-.textfield label{
-    color:#f0ffffde;
+.textfield label {
+    color: #f0ffffde;
     margin-bottom: 10px;
 }
 
-.textfield > input::placeholder{
-    color:#f0ffff94;
+.textfield > input::placeholder {
+    color: #f0ffff94;
 }
 
 .btn-login {
@@ -134,8 +156,32 @@
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    color:#2b134b;
+    color: #2b134b;
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+}
+
+.search-form input {
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+.search-form button {
+    border: none;
+    background: none;
+    cursor: pointer;
 }

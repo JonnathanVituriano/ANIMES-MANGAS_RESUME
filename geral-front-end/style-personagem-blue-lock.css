@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-anime {
+    width: 250px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.jin {
+    background-image: url('assets/imagem-com-sombra/jin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.bachira {
+    background-image: url('assets/imagem-com-sombra/bachira_ego.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.isagi {
+    background-image: url('assets/imagem-com-sombra/isagi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.jinpachi {
+    background-image: url('assets/imagem-com-sombra/jinpachi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.reika {
+    background-image: url('assets/imagem-com-sombra/reika.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.rensuke {
+    background-image: url('assets/imagem-com-sombra/rensuke.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.rin {
+    background-image: url('assets/imagem-com-sombra/rin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.shidou {
+    background-image: url('assets/imagem-com-sombra/shidou.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.zaizen {
+    background-image: url('assets/imagem-com-sombra/zaizen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.sae {
+    background-image: url('assets/imagem-com-sombra/sae.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

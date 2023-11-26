@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-anime {
+    width: 250px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.mikey {
+    background-image: url('assets/imagem-com-sombra/mikey-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.baji {
+    background-image: url('assets/imagem-com-sombra/baji-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.chifuyu {
+    background-image: url('assets/imagem-com-sombra/chifuyu-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.draken {
+    background-image: url('assets/imagem-com-sombra/draken-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.hina {
+    background-image: url('assets/imagem-com-sombra/hina-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.kisaki {
+    background-image: url('assets/imagem-com-sombra/kisaki-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.mitsuya {
+    background-image: url('assets/imagem-com-sombra/mitsuya-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.naoto {
+    background-image: url('assets/imagem-com-sombra/naoto-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.ran {
+    background-image: url('assets/imagem-com-sombra/ran-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.takemichi {
+    background-image: url('assets/imagem-com-sombra/takemichi-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

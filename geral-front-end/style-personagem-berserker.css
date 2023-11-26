@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-anime {
+    width: 390px;
+    height: 120px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.casca {
+    background-image: url('assets/casca-berserker-pf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.farnese {
+    background-image: url('assets/Farnese-berserker-pf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.griffith {
+    background-image: url('assets/Griffith-berserker-pf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.guts {
+    background-image: url('assets/guts-berserker-pf.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.isidro {
+    background-image: url('assets/isidro-berserker-pf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.judeau {
+    background-image: url('assets/Judeau-berserker-pf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.puck {
+    background-image: url('assets/Puck-berserker-pf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.rickert {
+    background-image: url('assets/Rickert-berserker-pf.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.schierke {
+    background-image: url('assets/Schierke-berserker-pf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.serpico {
+    background-image: url('assets/serpico-berserker-pf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

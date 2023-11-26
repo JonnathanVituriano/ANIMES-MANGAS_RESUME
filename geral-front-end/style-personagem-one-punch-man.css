@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-anime {
+    width: 250px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.saitama {
+    background-image: url('assets/imagem-com-sombra/saitama-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.genos {
+    background-image: url('assets/imagem-com-sombra/genos-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.bang {
+    background-image: url('assets/imagem-com-sombra/bang-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.boros {
+    background-image: url('assets/imagem-com-sombra/boros-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.fubuki {
+    background-image: url('assets/imagem-com-sombra/fubuki-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.garou {
+    background-image: url('assets/imagem-com-sombra/garou-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.king {
+    background-image: url('assets/imagem-com-sombra/king-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.mumen {
+    background-image: url('assets/imagem-com-sombra/mumen-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.sonic {
+    background-image: url('assets/imagem-com-sombra/sonic-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.tatsumaki {
+    background-image: url('assets/imagem-com-sombra/tatsumaki-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

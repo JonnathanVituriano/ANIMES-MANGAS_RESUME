@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-anime {
+    width: 200px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.gon {
+    background-image: url('assets/imagem-com-sombra/gon-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.chrollo {
+    background-image: url('assets/imagem-com-sombra/chrollo-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.hisoka {
+    background-image: url('assets/imagem-com-sombra/hisoka-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.illumni {
+    background-image: url('assets/imagem-com-sombra/illumi-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.killua {
+    background-image: url('assets/imagem-com-sombra/killua-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.kurapika {
+    background-image: url('assets/imagem-com-sombra/kurapika-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.leorio {
+    background-image: url('assets/imagem-com-sombra/leorio-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.meruem {
+    background-image: url('assets/imagem-com-sombra/meruem-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.netero {
+    background-image: url('assets/imagem-com-sombra/netero-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.bisky {
+    background-image: url('assets/imagem-com-sombra/bisky-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
