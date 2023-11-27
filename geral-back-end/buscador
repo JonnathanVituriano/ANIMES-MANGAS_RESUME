@@ -1,0 +1,63 @@
+<?php
+// Banco de dados simulado (array associativo)
+$database = array(
+    array('id' => 1, 'title' => 'Artigo 1', 'content' => 'Conteúdo do artigo 1'),
+    array('id' => 2, 'title' => 'Artigo 2', 'content' => 'Conteúdo do artigo 2'),
+    array('id' => 3, 'title' => 'Artigo 3', 'content' => 'Conteúdo do artigo 3'),
+    // Adicione mais itens conforme necessário
+);
+
+// Função de busca
+function search($query, $database) {
+    $results = array();
+
+    foreach ($database as $item) {
+        // Verifica se a consulta está presente no título ou no conteúdo
+        if (stripos($item['title'], $query) !== false || stripos($item['content'], $query) !== false) {
+            $results[] = $item;
+        }
+    }
+
+    return $results;
+}
+
+// Inicializa a consulta
+if (isset($_GET['query'])) {
+    $query = $_GET['query'];
+
+    $searchResults = search($query, $database);
+
+    // Exibir resultados
+    echo "<h2>Resultados da busca para '{$query}':</h2>";
+
+    if (empty($searchResults)) {
+        echo "<p>Nenhum resultado encontrado.</p>";
+    } else {
+        foreach ($searchResults as $result) {
+            echo "<h3>{$result['title']}</h3>";
+            echo "<p>{$result['content']}</p>";
+            echo "<hr>";
+        }
+    }
+} else {
+    echo "<p>Insira uma consulta para pesquisar.</p>";
+}
+
+// Exibir formulário de pesquisa
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Pesquisa</title>
+</head>
+<body>
+    <h2>Faça uma pesquisa:</h2>
+    <form action="seu-arquivo-php.php" method="get">
+        <label for="query">Consulta:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Pesquisar</button>
+    </form>
+</body>
+</html>
