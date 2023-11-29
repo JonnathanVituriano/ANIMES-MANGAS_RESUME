@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.agrupar {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.direita img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0px;
+    margin-left: 800px;
+    cursor: pointer;
+}
+
+.direita img.ativo {
+    border: 2px solid #77ffc0;
+}
+
+.logo-anime {
+    width: 250px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+h1 {
+    color: white;
+    margin-left: 45px;
+    font-size: 50px;
+}
+
+p {
+    color: white;
+    margin-left: 45px;
+}
+
+.icon {
+    font-size: 30px;
+    margin: 30px 50px;
+}
+
+.icon a {
+    color: white;
+}
+
+body.yagami {
+    background-image: url('assets/imagem-com-sombra/yagami-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.L {
+    background-image: url('assets/imagem-com-sombra/L-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.kiyomi {
+    background-image: url('assets/imagem-com-sombra/kiyomi-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.mello {
+    background-image: url('assets/imagem-com-sombra/mello-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.misa {
+    background-image: url('assets/imagem-com-sombra/misa-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.near {
+    background-image: url('assets/imagem-com-sombra/near-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.rem {
+    background-image: url('assets/imagem-com-sombra/rem-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.ryuk {
+    background-image: url('assets/imagem-com-sombra/ryuk-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.soichiro {
+    background-image: url('assets/imagem-com-sombra/soichiro-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body.teru {
+    background-image: url('assets/imagem-com-sombra/teru-wp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

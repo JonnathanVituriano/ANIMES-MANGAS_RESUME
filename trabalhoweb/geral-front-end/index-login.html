@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style-login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="topo">
+        <h1>MyDailyManga</h1>
+        <div class="menu">
+            <a href="index-inicio.html" alt="inicio">INICIO</a>
+            <a href="index-animes.html" alt="animes">ANIMES</a>
+            <a href="index-novidades.html" alt="novidades">NOVIDADES</a>
+            <a href="index-favoritos.html" alt="favoritos">FAVORITOS</a>
+        </div>
+        <div class="icons">
+            <form class="search-form" action="#" method="post">
+                <input type="text" name="search" placeholder="Pesquisar">
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="login-principal">
+        <div class="login-esquerdo">
+            <h1>Faça login<br>E entre para o nosso time</h1>
+            <img src="security-animate.svg" class="img-login" alt="img-login">
+        </div>
+        <div class="login-card">
+            <form action="login.php" method="post" id="loginForm">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email" required> 
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div>
+                <button type="button" class="btn-login" onclick="submitForm()">Login</button>
+            </form>
+            <script>
+                function submitForm() {
+                    // Verificar se os campos estão preenchidos
+                    var email = document.querySelector('input[name="email"]').value;
+                    var senha = document.querySelector('input[name="senha"]').value;
+
+                    if (email !== '' && senha !== '') {
+                        // Redirecionar apenas se os campos estiverem preenchidos
+                        window.location.href = "index-inicio.html";
+                    }
+                }
+            </script>
+        </div>
+        <a class="cadastrolink" href="index-cadastro.html">faça o cadastro para poder entrar no nosso site!</a>
+    </div>
+</body>
+</html>
